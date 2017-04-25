@@ -1,0 +1,24 @@
+.LikeButton > .p-button::after {
+    content: "鬼がかってますね";
+}
+.LikeButton > .p-button > span:not(.fa) {
+    display: none;
+}
+
+.itemsShowHeaderStock_statusList > li:first-child > .itemsShowHeaderStock_countText::after{
+  content: "鬼がかってますね";
+  font-size: 12px;
+}
+
+.itemsShowHeaderStock_statusList > li:first-child > .itemsShowHeaderStock_countText{
+  font-size: 0px;
+}
+
+.LikeLabel__text::after {
+    content: "鬼がかってますね";
+    font-size: 16px;
+}
+
+.LikeLabel__text {
+    font-size: 0;
+}
