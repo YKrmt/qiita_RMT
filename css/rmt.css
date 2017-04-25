@@ -1,3 +1,4 @@
+/* いいね */
 .LikeButton > .p-button::after {
     content: "鬼がかってますね";
 }
@@ -21,4 +22,15 @@
 
 .LikeLabel__text {
     font-size: 0;
+}
+
+/* ストック */
+.StockButton__stock::after {
+    content: "言質、とりました";
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.StockButton__label {
+    display: none;
 }
